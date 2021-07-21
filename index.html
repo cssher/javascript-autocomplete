@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoComplete</title>
+</head>
+
+<style>
+    .autocomplete{
+        position: relative;
+        display: inline-block;
+    }
+</style>
+
+<body>
+
+    <form autocomplete="off">
+        <div class="autocomplete">
+            <input id="myInput" type="text" placeholder="search countries">
+        </div>
+        <button type="submit">Search</button>
+    </form>
+    
+    <div id="matching-items" style="height: 200px; overflow-y: scroll;
+     width: 15%;"></div>
+
+
+    
+</body>
+    <script src="index.js"></script>
+</html>
